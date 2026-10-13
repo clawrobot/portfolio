@@ -29,4 +29,20 @@ export const projects: Project[] = [
             }
         ],
     },
+    {
+        id: "calculator-app",
+        title: "Calculator App",
+        description: "This is a calculator app that I DIDN'T vibecode the hell out of.",
+        image: {
+            src: "/dante.jpg",
+            alt: "dante fr",
+        },
+        longDescription: "This is a calculator app that I DIDN'T vibecode the hell out of. Lorem ipsum.",
+        images: [
+            {
+                src: "/dante.jpg",
+                alt: "dante fr",
+            }
+        ],
+    },
 ];

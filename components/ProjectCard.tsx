@@ -3,7 +3,7 @@ import { Project } from "@/projects"
 
 export default function ProjectCard({ project }: {project: Project}){
     return (
-        <div>
+        <div className="flex">
             <div>
                 <h2>{project.title}</h2>
                 <p>{project.description}</p>
